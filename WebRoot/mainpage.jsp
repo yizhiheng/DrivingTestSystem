@@ -1,6 +1,6 @@
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
-<%@page import="com.mysql.jdbc.Driver"%>
-<%@page import="java.sql.*"%>
+<%@ page import="com.mysql.jdbc.Driver"%>
+<%@ page import="java.sql.*"%>
 <%
 	String path = request.getContextPath();
 	String basePath = request.getScheme() + "://"
